@@ -1,0 +1,120 @@
+body{background: #fff;
+    width: 100%;}
+	
+	 
+	
+	 div.nav{ width: 800px;
+              height: 150px;
+		      float: right;
+			  font-size:20px;
+			  font-family:arial;
+			  color:#555;
+	 }
+	  
+		 
+	
+	
+
+	/*Меню */
+	
+	 	 li ul { /* пункты меню*/
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-left: 5px; /*отступ подменю */
+	list-style: none; /* Для списка убираем маркеры */
+	border:solid 1px #ddd;
+	background:#eee;
+	          }
+			  
+	li a {   /*ссылки в пунктах меню*/ 
+	      text-decoration:none;
+		  color: black;
+		  margin-right: 30px;
+		  
+		 }
+	   
+	   ul li.g { /*главное меню*/
+           display: inline;
+           list-style: none; /* Для списка убираем маркеры */ }          
+   
+  
+    	   
+   
+   li:hover ul {  /*пункты меню принаведении курсора */
+    display: block; /* При выделении пункта курсором мыши отображается подменю */
+	
+   } 
+	
+	ul li.g { /*главное меню*/
+           display: inline;
+           list-style: none; /* Для списка убираем маркеры */ }                   	
+	
+    ul li.home {color:red;}
+	        
+     
+				
+    li.g a:hover { /*ссылки в пунктах Меню при наведении курсора */  
+    color: #2684cd;  /* Цвет текста активного пункта */
+    
+   }
+   
+    li.sub a { /*ссылки в пунктах ПодМеню при загрузке */  
+                 font-size: 16px;}
+   
+    li.sub a:hover { /*ссылки в пунктах ПодМеню при наведении курсора */  
+                 background:#2684cd !important;
+	             color:#fff !important;
+				 display: block;}	
+
+			 
+				 /* Конец Меню */
+				 
+				 
+	
+  .akono{
+         width: 40%; 
+		 height: 150px;
+		 float:left;
+		 background: url(img/home-bg.png);
+ 
+		}
+  .p {
+    text-align: center; /* Выравнивание по центру */
+   }
+   
+  .div2{ 
+         height: 150px;
+		 background: url(img/home-bg.png)
+        } 
+
+   ul li{display: inline;
+         font-size: 22px;
+		 margin: 20px 15px;
+	     float:left;
+		
+		
+	     
+	}
+   .li1 li{color: #2684cd;
+        }
+   .featured {margin-top: 50px;
+              text-align: center;
+              background: #fff;
+			  
+              }
+   
+   .circles{margin-left: 100px;
+            float:left;
+			background: #fff;
+			border:none !important;
+	        margin:0 0 0 120px;
+			width:213px;
+	        height:205px;}
+     		
+   .circles2{margin-left: 30px;
+            float:left;
+			background: #fff;
+			border:none !important;
+	        margin:0 0 0 36px;
+			width:213px;
+	        height:205px;} 
